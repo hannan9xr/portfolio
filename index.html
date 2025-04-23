@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation Example</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="js/script.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <style>
+      /* Added for sticky footer */
+      html, body {
+        height: 100%;
+        margin: 0;
+      }
+      
+      body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+      }
+      
+      .content {
+        flex: 1 0 auto;
+      }
+      
+      /* Footer styles */
+      footer {
+        background-color: #212529;
+        color: #fff;
+        padding: 2rem 0;
+        margin-top: auto; /* Changed from margin-top: 1rem; */
+        flex-shrink: 0;
+      }
+      
+      .footer-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      
+      .footer-section {
+        flex: 1;
+        padding: 0 15px;
+        min-width: 200px;
+        margin-bottom: 1rem;
+      }
+      
+      .footer-section h5 {
+        margin-bottom: 1rem;
+        font-weight: 600;
+      }
+      
+      .footer-links {
+        list-style: none;
+        padding: 0;
+      }
+      
+      .footer-links li {
+        margin-bottom: 0.5rem;
+      }
+      
+      .footer-links a {
+        color: #adb5bd;
+        text-decoration: none;
+        transition: color 0.3s;
+      }
+      
+      .footer-links a:hover {
+        color: #fff;
+        text-decoration: none;
+      }
+      
+      .social-icons {
+        display: flex;
+        gap: 1rem;
+        margin-top: 1rem;
+      }
+      
+      .social-icons a {
+        color: #fff;
+        font-size: 1.2rem;
+        transition: color 0.3s;
+      }
+      
+      .social-icons a:hover {
+        color: #0d6efd;
+      }
+      
+      .footer-bottom {
+        text-align: center;
+        padding-top: 1rem;
+        border-top: 1px solid #343a40;
+        margin-top: 1rem;
+      }
+      
+      /* Cybersecurity image container */
+      .cyber-image-container {
+        text-align: center;
+        margin: 20px 0;
+      }
+      
+      .cyber-image {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+    </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="nishan me2.png"><img src="nishan me2.png"  width="40px" height="43px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="mynavbar">
+        <ul class="navbar-nav"> 
+          <li class="nav-item mx-3">
+            <a class="nav-link" href="#" style="color: aliceblue;">Home</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link" href="about.html" style="color: aliceblue;">About</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link" href="#" style="color: aliceblue;">Contact</a>
+          </li>
+        </li>
+       
+        </ul>
+      </div>
+    </div>
+  </nav>
+    
+  <div class="container-fluid text-center content">    
+    <div class="row content">
+      <div class="col-sm-2 sidenav">
+        <p style="margin-top: 20px;"><a href="https://www.facebook.com/hannan9xr"><img src="6tfZKxsLB9d.png" width="50px" height="50px"></a></p>
+        <p><a href="https://github.com/r9nishan"><img src="1200px-GitHub_Invertocat_Logo.sv.png" width="50px" height="50px"></a></p>
+        <p><a href="https://wa.me/+8801619452152" target="_blank"><img src="whatsapp-business-icon.png" width="50px" height="50px"></a></p>
+      </div>
+      <div class="col-sm-8 text-left"> 
+        <h1 class="text-center"><strong>Welcome To My Website</strong></h1>
+        
+        <!-- Added cybersecurity image -->
+        <div class="cyber-image-container">
+          <img src="cybersecurity_NicoElNino-AlamySt.png"  width="700px" class="cyber-image">
+        </div>
+        
+        <p class="About">Hi, I'm <strong>Hannan Mir</strong>, about passionate Cyber Security with a keen interest in securing digital systems and exploring the evolving landscape of cybersecurity. My work involves researching vulnerabilities, strengthening security protocols, and staying ahead of emerging cyber threats.
+ 
+          In addition to cybersecurity, I have a strong interest in compitetive  programming and web designing. I'm continuously learning and experimenting with technologies like HTML, CSS, JavaScript, and Bootstrap to build secure and efficient applications.
+                   
+          I believe in the importance of digital privacy, ethical hacking, and cyber defense. My goal is to contribute to a safer cyber world by developing innovative security solutions and sharing knowledge with the tech community.
+          </p>
+        <hr>
+        <h3>Thanks for visiting</h3>
+      
+      </div>
+      <div class="col-sm-2 sidenav">
+        <div class="well">
+          <p>Advertising</p>
+        </div>
+        <div class="well">
+          <p>Advertising</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  <footer class="container-fluid">
+    <div class="container">
+      <div class="footer-content">
+        <!-- About Section -->
+        <div class="footer-section">
+          <h5>About Hannan Mir</h5>
+          <p>A passionate cybersecurity specialist focused on digital security, ethical hacking, and secure web security. Committed to creating a safer cyber environment through innovative solutions.</p>
+        </div>
+        
+        <!-- Expertise Section -->
+        <div class="footer-section">
+          <h5>Areas of Expertise</h5>
+          <ul class="footer-links">
+            <li><a href="#">Penetration Testing</a></li>
+            <li><a href="#">Security Analysis</a></li>
+            <li><a href="#">Web Designing</a></li>
+            <li><a href="#">Socal Media </a></li>
+            <li><a href="#">Vulnerability Assessment</a></li>
+          </ul>
+        </div>
+        
+        <!-- Resources -->
+        <div class="footer-section">
+          <h5>Resources</h5>
+          <ul class="footer-links">
+            <li><a href="#">Cybersecurity Blog</a></li>
+            <li><a href="#">Security Tools</a></li>
+            <li><a href="#">Research Publications</a></li>
+            <li><a href="#">Project Portfolio</a></li>
+          </ul>
+        </div>
+        
+       
+        <div class="footer-section">
+          <h5>Get In Touch</h5>
+          <p><i class="bi bi-envelope-fill me-2"></i> hannan.cyber@gmail.com</p>
+          <p><i class="bi bi-telephone-fill me-2"></i> +880 1*********</p>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/hannan9xr" title="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="https://github.com/r9nishan" title="GitHub"><i class="bi bi-github"></i></a>
+            <a href="https://wa.me/+8801619452152" title="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+            <a href="https://www.linkedin.com/in/md-abdul-hannan-mir-79a314353?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app " title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+            <a href="https://x.com/hannan9xr" title="Twitter"><i class="bi bi-twitter-x"></i></a>
+          </div>
+        </div>
+      </div>
+      
+      <form id="newsletterForm" action="https://formsubmit.co/hannan.cyber@gmail.com" method="POST">
+        <div class="input-group mb-3">
+          <input type="email" name="email" class="form-control" placeholder="Enter your email address" required>
+          <button class="btn btn-primary" type="submit">Subscribe</button>
+        </div>
+        <input type="hidden" name="_subject" value="New Newsletter Subscription">
+        <input type="hidden" name="_next" value="https://yourwebsite.com/thanks.html">
+      </form>
+      
+   
+<div class="footer-bottom">
+  <div class="row">
+    <div class="col-md-6">
+      <p class="mb-md-0">&copy; 2025 Hannan Mir | Xploitzen. All Rights Reserved.</p>
+    </div>
+    <div class="col-md-6 text-md-end">
+      <ul class="list-inline mb-0">
+        <li class="list-inline-item"><a href="#" class="text-decoration-none me-3">Privacy Policy</a></li>
+        <li class="list-inline-item"><a href="#" class="text-decoration-none me-3">Terms of Use</a></li>
+        <li class="list-inline-item"><a href="#" class="text-decoration-none">Cookie Policy</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+</div>
+  </footer>
+</body>
+</html>
